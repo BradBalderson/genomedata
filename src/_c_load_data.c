@@ -17,13 +17,13 @@
 #undef NDEBUG /* Keep assert macros from becoming NOP */
 
 #include <assert.h>
-#include <error.h>
+/* #include <error.h> */
 #include <inttypes.h>
 #include <math.h>
 #include <stdbool.h>
 #include <stdint.h>
 #include <sys/stat.h>
-#include <argp.h>
+/* #include <argp.h> */
 
 #define PY_SSIZE_T_CLEAN
 #include <Python.h> /* includes stdio, string, errno, and stdlib */
